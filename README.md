@@ -7,23 +7,7 @@ ProjectName and Description
 
 
 
-<!--
- 
-## 目录
 
-- [上手指南](#上手指南)
-  - [开发前的配置要求](#开发前的配置要求)
-  - [安装步骤](#安装步骤)
-- [文件目录说明](#文件目录说明)
-- [开发的架构](#开发的架构)
-- [部署](#部署)
-- [使用到的框架](#使用到的框架)
-- [贡献者](#贡献者)
-  - [如何参与开源项目](#如何参与开源项目)
-- [版本控制](#版本控制)
-- [作者](#作者)
-- [鸣谢](#鸣谢)
--->
 ## 项目介绍
 
 * 后端采用Spring Boot、Jwt。
@@ -46,19 +30,25 @@ ProjectName and Description
 
 ### 构建工具
 [Maven](http://maven.apache.org/)  
-[Spring Boot](https://spring.io/)
+Maven 提供了一种标准化、规范化的项目管理和构建方式，可以帮助更高效地管理项目、统一构建流程，并且能够与其他工具和系统良好地集成。  
+[Spring Boot](https://spring.io/)  
+Spring Boot 提供了简洁、快速的开发体验，使开发者能够更专注于业务逻辑的实现，同时提供了丰富的功能和扩展，满足各种应用场景的需求。
 ### 开发容器框架
 [Spring Boot](https://spring.io/projects/spring-boot)
 ### 数据层
-[Mybatis](https://mybatis.net.cn/)
+[Mybatis](https://mybatis.net.cn/)  
+MyBatis 提供了灵活、简洁、高效的数据操作方式，使得开发者可以更专注于业务逻辑的实现。同时，MyBatis 也具有良好的扩展性和集成性，适用于各种规模的项目，是 Java 后端开发中非常重要的持久层框架之一。
 ### 日志
-[Slf4j](https://slf4j.org/)
+[Slf4j](https://slf4j.org/)  
+Slf4j 提供了一种简单、灵活且高效的日志门面解决方案，帮助开发者更方便地管理和记录应用程序的日志信息，同时也能够满足各种不同项目的日志需求。
 ### 数据库
 [MySQL](https://www.mysql.com/cn/)
 ### token管理
-[JWT](https://jwt.io)
+[JWT](https://jwt.io)  
+JWT 提供了一种简单、安全且灵活的认证和授权解决方案，特别适用于分布式系统和跨平台应用程序。通过使用 JWT，开发者可以轻松地实现安全的用户认证和授权功能。
 ### json处理
-[Fastjson](https//github.com/alibaba/fastjson)
+[Fastjson](https//github.com/alibaba/fastjson)  
+Fastjson 是一个高性能、灵活且简单易用的 JSON 解析库。它能够帮助开发者快速、高效地处理 JSON 数据，提升应用程序的性能和开发效率。
 
 ## 总结
 
