@@ -1,0 +1,18 @@
+
+#数据库配置
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/film
+    username: root
+    password: yh351248
+  servlet:
+    multipart:
+      max-file-size: 10MB #单个文件上传大小限制
+      max-request-size: 100MB #单个请求最大大小限制
+#配置mybatis的日志, 指定输出到控制台
+#开启mybatis的驼峰命名自动映射开关 a_column ------> aCloumn
+mybatis:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+    map-underscore-to-camel-case: true
